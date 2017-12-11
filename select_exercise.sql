@@ -8,6 +8,6 @@ SELECT genre from albums where name = 'Nevermind';
 
 SELECT * from albums WHERE release_date = 1990;
 
-SELECT * FROM albums WHERE sales = 20;
+SELECT * FROM albums WHERE sales < 20;
 
-SELECT * from albums where genre = 'rock';
+SELECT * from albums where genre like '%rock%';
